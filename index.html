@@ -383,7 +383,7 @@
             marketing & growth solutions.
           </p>
         </div>
-        <div class="footer-sm">
+        <div>
           <p class="social-media-text">Social media</p>
           <ul class="ft-soc-items-list">
             <li class="soc-item">
@@ -413,10 +413,34 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="social-media-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label>
+              <input
+                type="text"
+                name="user_email"
+                class="ft-modal-form-input"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon">
+                <use
+                  href="./img/icons.svg#icon-icon-send"
+                  width="24"
+                  height="20"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!--Modal window-->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
