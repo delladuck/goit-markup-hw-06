@@ -713,6 +713,7 @@ button {
 .modal-form-msg:focus {
   outline: none;
   border-color: var(--primary-brand-color);
+  margin-bottom: 16px;
 }
 
 .modal-form-msg::placeholder {
@@ -726,7 +727,8 @@ button {
   display: block;
   width: 16px;
   height: 16px;
-  border: 1.25px solid #2E2F42;
+  margin-right: 8px;
+  border: 1.25px solid #2e2f42;
   border-radius: 2px;
   content: "";
   cursor: pointer;
@@ -738,6 +740,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   border: none;
+  outline: none;
 }
 
 .visually-hidden {
@@ -752,4 +755,14 @@ button {
 
 .modal-form-check:focus + .modal-form-check-desc::before {
   outline: 1.5px solid rgba(0, 0, 0, 1);
+}
+
+.modal-form-check-desc {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #757575;
+  margin-bottom: 24px;
 }
