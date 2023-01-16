@@ -726,12 +726,30 @@ button {
   display: block;
   width: 16px;
   height: 16px;
-  border-radius: 4px;
-  content: '';
+  border: 1.25px solid #2E2F42;
+  border-radius: 2px;
+  content: "";
   cursor: pointer;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-  background-color: #404BBF;
-  background-image: url(./img/check.svg);
+  background-color: #404bbf;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.modal-form-check:focus + .modal-form-check-desc::before {
+  outline: 1.5px solid rgba(0, 0, 0, 1);
 }
