@@ -533,8 +533,6 @@ button {
 
 .ft-boxes {
   display: flex;
-  justify-content: flex-start;
-  gap: 120px;
 }
 
 .ft-logo {
@@ -548,6 +546,10 @@ button {
 .tagline {
   min-width: 264px;
   color: #e7e9fc;
+}
+
+.social-media-wrapper {
+  margin-left: 120px;
 }
 
 .social-media-text {
@@ -578,6 +580,10 @@ button {
 .ft-soc-item-link:hover,
 .ft-soc-item-link:focus {
   background: #31d0aa;
+}
+
+.subscribe-wrapper {
+  margin-left: 80px;
 }
 
 .ft-modal-form-input {
