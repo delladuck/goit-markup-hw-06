@@ -691,6 +691,8 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.modal-close-button:hover,
+.modal-close-button:focus,
 .modal-close-button:active {
   background: #404bbf;
   fill: #fff;
@@ -733,6 +735,7 @@ button {
 }
 
 .modal-form-input {
+  background: none;
   width: 100%;
   height: 40px;
   padding-left: 38px;
@@ -742,6 +745,7 @@ button {
 }
 
 .modal-form-input:focus {
+  background: none ;
   outline: none;
   border-color: var(--primary-brand-color);
 }
@@ -761,6 +765,7 @@ button {
 }
 
 .modal-form-msg {
+  background: none;
   resize: none;
   width: 100%;
   height: 120px;
@@ -771,6 +776,7 @@ button {
 }
 
 .modal-form-msg:focus {
+  background: none;
   outline: none;
   border-color: var(--primary-brand-color);
 }
@@ -810,6 +816,10 @@ button {
   padding: 0;
   overflow: hidden;
   clip: rect(0 0 0 0);
+}
+
+.privacy-policy-link {
+  color: var(--primary-brand-color);
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
